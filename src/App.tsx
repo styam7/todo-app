@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-      todo app
+      <div className='heading'>Taskify</div>
     </div>
   );
 }
